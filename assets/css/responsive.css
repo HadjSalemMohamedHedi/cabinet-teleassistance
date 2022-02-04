@@ -1,0 +1,180 @@
+/*@media (max-width: 800px) {*/
+@media (max-width: 995px) {
+	.col-md-4{
+		width: 99%!important;
+	}
+	#header .logo{
+		display: none;
+	}
+
+	.mobile-nav-toggle{
+		font-size: 45px;
+	}
+
+	.phone{
+		font-size: 23px;
+	}
+	.ContactHeader {
+		width: 65%;
+		position: absolute;
+    right: 0;
+	}
+	.ContactHeader  img{
+		height: 38px;
+	}
+
+	.hero-section {
+background: url(../img/Téléassistance/bannière-1-mobile.jpg);  position: relative;
+background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.section-heading{
+	font-size: 2.5rem;
+}
+
+	.logo2{
+		display: block;
+	}
+.hero-section .iphone-wrap .phone-2{
+	        height: 46%;
+    width: auto;
+    margin-top: 32%;
+    margin-left: 43%;
+}
+.hero-section, .hero-section > .container > .row{
+	max-height: 100%;
+}
+.Mobileh1Home{
+	margin-top: 100%!important;
+}
+
+
+	@keyframes TopNav {
+  from {top: 100vh;}
+  to {top: 35vh;}
+}
+.navbar-mobile {  
+    overflow: hidden;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    transition: 0.3s;
+    z-index: 999;
+    width: 100%;
+    border-top-right-radius: 75px;
+    border-top-left-radius: 75px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    position: absolute;
+    top: 35vh;
+    height: 75vh;
+    animation-name: TopNav;
+    animation-duration: 0.85s;
+    box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+}
+
+.Ccard{
+	display: block;
+}
+
+.cardFontionnement{
+	margin: auto;
+    width: 65%;
+    height: auto;
+}
+.fleshpplus{
+	width: 75%;
+	margin: auto;
+	text-align: center;
+	transform: rotate(90deg);
+	display: block:!important;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+.cardFontionnementN3{
+	width: 33%;
+	margin-left: 1%;
+}
+.cardFontionnementN3 img{
+width: 100%;
+    height: auto;
+}
+
+.cardFontionnementN3 h4{
+font-size: 1rem;
+}
+
+.ServicesMobile{
+	display: flex;
+	    margin-top: -29%;
+}
+.materiel h4{
+	font-size: 2rem;
+}
+
+.promo h2{
+	font-size: 35px;
+}
+.promo h3 {
+	font-size: 15px;
+}
+
+
+.promo{
+    height: 150px;
+    width: 150px;
+    margin-top: 0;
+    padding: 26px;
+    margin-left: 0;
+    position: inherit;
+    margin:2% ;
+}
+.ServicesPersonnes, .bottomSection{
+background: rgb(197,18,19);
+}
+
+
+
+.attous {
+    text-align: center;
+    width: 45%;
+    margin: auto;
+}
+
+.columnInverse{
+	flex-direction: column-reverse;
+	margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+ p {
+	text-align: center;
+}
+.hero-section h1 {
+    font-size: 2.5rem;
+    text-align: right;
+    margin-top: 40px;
+  }
+
+
+
+.stickyContact, .stickyContact .imgContactForm{
+		top: 150px!important;
+
+}
+
+h6 i {
+    color: #fff;
+}
+
+.BodyForm .envoyerMessage{
+	bottom: 1%;
+}
+
+.stickyContact{
+	height: 460px;
+}
+}
